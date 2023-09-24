@@ -1,0 +1,11 @@
+Decision Tree Classifier visualization for undersample and classifier with random_state = 42
+for depth = 1:
+	accuracy: 0.79
+	precision: 0.73
+	recall 0.90
+	f1: 0.81
+|--- feature_20 <= 0.48
+|   |--- class: 0
+|--- feature_20 >  0.48
+|   |--- class: 1
+
