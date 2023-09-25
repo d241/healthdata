@@ -4,14 +4,14 @@ for depth = 2:
 	precision: 0.72
 	recall 0.95
 	f1: 0.82
-|--- feature_20 <= 0.35
-|   |--- feature_20 <= 0.12
+|--- feature_0 <= 0.34
+|   |--- feature_0 <= 0.08
 |   |   |--- class: 0
-|   |--- feature_20 >  0.12
+|   |--- feature_0 >  0.08
 |   |   |--- class: 0
-|--- feature_20 >  0.35
-|   |--- feature_20 <= 1.05
+|--- feature_0 >  0.34
+|   |--- feature_0 <= 1.05
 |   |   |--- class: 1
-|   |--- feature_20 >  1.05
+|   |--- feature_0 >  1.05
 |   |   |--- class: 1
 

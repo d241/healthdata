@@ -4,26 +4,26 @@ for depth = 3:
 	precision: 0.78
 	recall 0.85
 	f1: 0.81
-|--- feature_20 <= 0.35
-|   |--- feature_20 <= 0.08
-|   |   |--- feature_20 <= -0.01
+|--- feature_0 <= 0.39
+|   |--- feature_0 <= 0.03
+|   |   |--- feature_8 <= 1.31
 |   |   |   |--- class: 0
-|   |   |--- feature_20 >  -0.01
+|   |   |--- feature_8 >  1.31
 |   |   |   |--- class: 0
-|   |--- feature_20 >  0.08
-|   |   |--- feature_21 <= -0.61
+|   |--- feature_0 >  0.03
+|   |   |--- feature_3 <= 0.99
 |   |   |   |--- class: 0
-|   |   |--- feature_21 >  -0.61
+|   |   |--- feature_3 >  0.99
 |   |   |   |--- class: 0
-|--- feature_20 >  0.35
-|   |--- feature_20 <= 1.01
-|   |   |--- feature_1 <= 0.02
-|   |   |   |--- class: 0
-|   |   |--- feature_1 >  0.02
+|--- feature_0 >  0.39
+|   |--- feature_0 <= 1.01
+|   |   |--- feature_3 <= 1.00
 |   |   |   |--- class: 1
-|   |--- feature_20 >  1.01
-|   |   |--- feature_7 <= 0.99
-|   |   |   |--- class: 1
-|   |   |--- feature_7 >  0.99
+|   |   |--- feature_3 >  1.00
 |   |   |   |--- class: 0
+|   |--- feature_0 >  1.01
+|   |   |--- feature_6 <= 3.99
+|   |   |   |--- class: 1
+|   |   |--- feature_6 >  3.99
+|   |   |   |--- class: 1
 
